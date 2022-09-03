@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop_app/main_page/screens/main_page.dart';
+import 'package:online_shop_app/screens/main_page.dart';
 
 void main() {
   runApp(const MyApp());
