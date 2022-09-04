@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:online_shop_app/constants/bottom_navigation_bar_items.dart';
 import 'package:online_shop_app/constants/colors.dart';
-import 'package:online_shop_app/constants/typography.dart';
 import 'package:online_shop_app/screens/main_page/main_page.dart';
 import '../blocs/bottom_navigation_bloc/bottom_navigation_bloc.dart';
 

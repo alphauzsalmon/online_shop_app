@@ -91,6 +91,15 @@ TextStyle markPro500(Color color) => TextStyle(
       color: color,
     );
 
+TextStyle markPro18and500(Color color) => TextStyle(
+      fontFamily: "Mark Pro",
+      fontSize: 18.0.sp,
+      fontWeight: FontWeight.w500,
+      height: 22.82 / 18.0,
+      letterSpacing: -0.33.sp,
+      color: color,
+);
+
 TextStyle markPro15and500(Color color) => TextStyle(
       fontFamily: "Mark Pro",
       fontSize: 15.0.sp,
@@ -117,6 +126,15 @@ TextStyle markPro10and500(Color color) => TextStyle(
       letterSpacing: -0.33.sp,
       color: color,
     );
+
+TextStyle markPro18and400(Color color) => TextStyle(
+      fontFamily: "Mark Pro",
+      fontSize: 18.0.sp,
+      fontWeight: FontWeight.w400,
+      height: 22.82 / 18.0,
+      letterSpacing: -0.33.sp,
+      color: color,
+);
 
 TextStyle discountStyle(Color color) => TextStyle(
       fontFamily: "Mark Pro",

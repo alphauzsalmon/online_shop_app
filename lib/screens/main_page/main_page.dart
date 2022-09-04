@@ -10,6 +10,7 @@ import 'package:online_shop_app/infrastructure/data_source/main_page_data_provid
 import 'package:online_shop_app/infrastructure/repositories/main_page_repositories.dart';
 import 'package:online_shop_app/screens/main_page/best_seller_widget.dart';
 import 'package:online_shop_app/screens/main_page/category_widget.dart';
+import 'package:online_shop_app/screens/main_page/filter_options_widget.dart';
 import 'package:online_shop_app/screens/main_page/home_store_widget.dart';
 import 'package:online_shop_app/widgets/dart/circular_indicator_widget.dart';
 import 'package:online_shop_app/widgets/error_text_widget.dart';
@@ -52,7 +53,11 @@ class MainPage extends StatelessWidget {
                               'assets/icons/main_page/filter.svg',
                               height: 13.0.h,
                               width: 11.0.w),
-                          onTap: () {},
+                          onTap: () {
+                            showModalBottomSheet(
+                                context: context,
+                                builder: (ctx) => const FilterOptionsWidget());
+                          },
                         ),
                       ],
                     ),
